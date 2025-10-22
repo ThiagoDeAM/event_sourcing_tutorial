@@ -1,4 +1,4 @@
-package br.ifsp.arsw.esdemo.config;
+package br.ifsp.arsw.esdemo.infrastructure.config;
 
 import org.axonframework.eventsourcing.EventCountSnapshotTriggerDefinition;
 import org.axonframework.eventsourcing.SnapshotTriggerDefinition;
@@ -10,6 +10,6 @@ import org.springframework.context.annotation.Configuration;
 public class AxonConfig {
     @Bean
     public SnapshotTriggerDefinition snapshotTrigger(Snapshotter snapshotter) {
-        return new EventCountSnapshotTriggerDefinition(snapshotter, 3);
+        return new EventCountSnapshotTriggerDefinition(snapshotter, 10);
     }
 }

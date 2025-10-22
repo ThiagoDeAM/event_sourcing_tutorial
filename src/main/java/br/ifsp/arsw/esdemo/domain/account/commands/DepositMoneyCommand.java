@@ -1,8 +1,8 @@
-package br.ifsp.arsw.esdemo.command.account.commands;
+package br.ifsp.arsw.esdemo.domain.account.commands;
 
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
-public record WithdrawMoneyCommand(
+public record DepositMoneyCommand(
         @TargetAggregateIdentifier String accountId,
         long amount
 ) {}

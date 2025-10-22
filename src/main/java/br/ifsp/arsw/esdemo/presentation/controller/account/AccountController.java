@@ -1,10 +1,10 @@
-package br.ifsp.arsw.esdemo.api;
+package br.ifsp.arsw.esdemo.presentation.controller.account;
 
-import br.ifsp.arsw.esdemo.api.dto.DomainEventDto;
-import br.ifsp.arsw.esdemo.audit.AccountEventReader;
-import br.ifsp.arsw.esdemo.command.account.commands.DepositMoneyCommand;
-import br.ifsp.arsw.esdemo.command.account.commands.OpenAccountCommand;
-import br.ifsp.arsw.esdemo.command.account.commands.WithdrawMoneyCommand;
+import  br.ifsp.arsw.esdemo.presentation.dto.DomainEventDto;
+import br.ifsp.arsw.esdemo.infrastructure.audit.AccountEventReader;
+import br.ifsp.arsw.esdemo.domain.account.commands.DepositMoneyCommand;
+import br.ifsp.arsw.esdemo.domain.account.commands.OpenAccountCommand;
+import br.ifsp.arsw.esdemo.domain.account.commands.WithdrawMoneyCommand;
 import br.ifsp.arsw.esdemo.query.account.model.AccountSummary;
 import br.ifsp.arsw.esdemo.query.account.repository.AccountSummaryRepository;
 import org.axonframework.commandhandling.gateway.CommandGateway;

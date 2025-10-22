@@ -1,8 +1,8 @@
 package br.ifsp.arsw.esdemo.query.account.projector;
 
-import br.ifsp.arsw.esdemo.command.account.events.AccountOpenedEvent;
-import br.ifsp.arsw.esdemo.command.account.events.MoneyDepositedEvent;
-import br.ifsp.arsw.esdemo.command.account.events.MoneyWithdrawnEvent;
+import br.ifsp.arsw.esdemo.domain.account.events.AccountOpenedEvent;
+import br.ifsp.arsw.esdemo.domain.account.events.MoneyDepositedEvent;
+import br.ifsp.arsw.esdemo.domain.account.events.MoneyWithdrawnEvent;
 import br.ifsp.arsw.esdemo.query.account.model.AccountSummary;
 import br.ifsp.arsw.esdemo.query.account.repository.AccountSummaryRepository;
 import org.axonframework.config.ProcessingGroup;

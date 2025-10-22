@@ -1,4 +1,4 @@
-package br.ifsp.arsw.esdemo.api.dto;
+package br.ifsp.arsw.esdemo.presentation.dto;
 
 import java.time.Instant;
 import java.util.Map;

@@ -1,9 +1,8 @@
-package br.ifsp.arsw.esdemo.audit;
+package br.ifsp.arsw.esdemo.infrastructure.audit;
 
-import br.ifsp.arsw.esdemo.api.dto.DomainEventDto;
+import br.ifsp.arsw.esdemo.presentation.dto.DomainEventDto;
 import org.axonframework.eventsourcing.eventstore.DomainEventStream;
 import org.axonframework.eventsourcing.eventstore.EventStore;
-import org.hibernate.boot.Metadata;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
